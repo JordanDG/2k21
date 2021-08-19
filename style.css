@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body_Main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #111828;
+}
+
+.body_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: nowrap;
+    height: 70vh;
+    margin-top: 15vh;
+    z-index: 100;
+}
+
+.body_EasterEgg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #111828;
+    z-index: 0;
+}
+
+.body_Title {
+    font-weight: 500;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+}
+
+.body_Splash {
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 15px;
+    text-align: center;
+}
+
+.body_Password_Input {
+    width: 300px;
+    height: 4vh;
+    font-size: 18px;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    background-color: #fafafa;
+    transition: all 0.5s ease-in-out;
+    margin-top: 2.5vh;
+}
+
+.body_Password_Input:Focus {
+    background-color: #fff;
+}
+
+.body_Password_Submit {
+    width: 150px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    outline: 0;
+    background-color: #fafafa;
+    transition: all 0.5s ease-in-out;
+    font-size: 16px;
+}
+
+.body_Password_Submit:hover {
+    border-radius: 0px;
+    background-color: #fff;
+}
